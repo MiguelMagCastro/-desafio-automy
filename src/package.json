@@ -1,0 +1,18 @@
+{
+    "name": "kartodromo-comunicacao",
+    "version": "1.0.0",
+    "description": "Sistema de comunicação com clientes do kartódromo",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "test": "jest",
+      "test:watch": "jest --watch"
+    },
+    "dependencies": {
+      "axios": "^1.6.7",
+      "readline": "^1.3.0"
+    },
+    "devDependencies": {
+      "jest": "^29.7.0"
+    }
+  }
